@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#techstack">Tech Stack</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Hey! I am <br>Farhat Ayesha</h1>
+            
+        </div>
+    </section>
+
+    <section id="about">
+       <h1 class="headings">ABOUT ME</h1>
+       <div id="pic">
+            <img src="me.jpeg" alt="Farhat Ayesha">
+            <div id="intro">
+                <h2>FARHAT AYESHA</h2>
+                <P>As a dedicated engineering student with a fervor for tackling real-world challenges using my technical
+                    prowess, I am presently immersed in learning HTML and CSS. I am actively in pursuit of an internship
+                    opportunity that will allow me to gain hands-on experience in web development, enhancing my
+                    proficiency in languages like JavaScript and responsive design techniques.
+                    I'm a Second year Student who is currently pursuing Information Science and Engineering in Sir M Visvesvaraya Institute Of Technology.</P>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="headings">SKILLS</h1>
+        <div class="techstack">
+            <div>C</div>
+            <div>C++</div>
+            <div>PYTHON</div>
+            <div>JAVA</div>
+            <div>FLUTTER</div>
+            <div>OOPS</div>
+    </section>
+
+   
+
+    <section id="contact">
+        
+            <h1 class="headings">CONTACT ME</h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter Your Name"><br>
+                <input type="email" name="email" class="input" placeholder="Enter Your Email"><br>
+                <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Enter Your Message"></textarea><br>
+                <input type="submit" value="SEND" id="send"><br>
+            </form>
+    </section>   
+    
+    <!-- <footer>
+        <table class="mycontact">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+            </tr>
+        </table>
+    </footer> -->
+    <p id="bebo">Annyonghaseyo jhonan Bangtan Sonyandaan Hwangam mangnae Jeon Jungkook immida</p>
+
+<button type="button" onclick="document.getElementById('bebo').innerHTML = 'GOLDEN MAKNAE'">HOLA!</button>
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.backgroundColor = 'pink'">Click Me!</button>
+    <p style="background-color: rgba(0, 0, 0, 0.9); padding-left: 10%; color: white; font-size: 2rem;">CONTACT</p>
+    <address style="color: white;
+     background-color: rgba(0, 0, 0, 0.9);
+     padding-left: 10%; padding-bottom: 2%; font-size: 1rem;"> #92, 1<sup>st</sup> Cross, Ex-servicemen Colony, <br>
+        RT Nagar, Bangalore, <br>
+        Karnatake, India - 560032 <br>
+        Contact : <a href="+91 9742532610"> +91 9742532610 </a><br>
+        Mail    : <a href="mailto:farhatayesha.m@gmail.com">farhatayesha.m@gmail.com </a><br>
+    </address>
+
+   
+</body>
+</html>
